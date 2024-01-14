@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    padding: 70px 142px 10px;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 980px;
+    min-height: 550px;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 0px 60px;
+    display: inline-block;
+}
+
+.calendarImg {
+    width: 170px; 
+}
+
+
+.date {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.weeks {
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.weeks li {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    margin: 1px 2px;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.days {
+    padding: 10px;
+    margin: 0px;
+}
+
+.days li {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:30px;
+    margin: 3px 2px;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    
+}
+
+ul .empty {
+    display: inline-block;
+    width: 110px;;
+    height: 33px;
+    margin-bottom: -8px;
+    padding-bottom: 10px;
+    border: 1px;
+    background-color: #d6d6d6;
+}
+
+.blue {
+    background-color: #719be2;
+}
+
+.green  {
+    background-color: #b5f49a;
+}
